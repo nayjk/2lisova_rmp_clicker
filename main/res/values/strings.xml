@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+    <resources>
+    <string name="app_name">StudentCounter</string>
+    <string name="txt_students">котяток</string>
+    <string name="btn_students">Добавить котёнка</string>
+</resources>

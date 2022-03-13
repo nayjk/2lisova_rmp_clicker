@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+    <LinearLayout tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:gravity="center"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:background="@drawable/ground"
+        android:id="@+id/txt_counter"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="@color/text"
+        android:text="@string/txt_students"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button"
+        android:onClick="onClick"
+        android:text="@string/btn_students"
+        android:textColor="#880E4F"
+        tools:ignore="OnClick" />
+
+</LinearLayout>
